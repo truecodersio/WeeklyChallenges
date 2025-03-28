@@ -2165,7 +2165,7 @@
       },
       "ChallengesWithTestsMark8/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": "Unsupported,Version=v0.0",
         "compile": {
           "bin/placeholder/ChallengesWithTestsMark8.dll": {}
         },
@@ -6812,5 +6812,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project ChallengesWithTestsMark8 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project ChallengesWithTestsMark8 supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "ChallengesWithTestsMark8",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
