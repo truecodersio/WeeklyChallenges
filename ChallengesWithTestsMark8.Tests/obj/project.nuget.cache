@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "C7MeNJUUUvY=",
-  "success": false,
+  "dgSpecHash": "urU5E6A1sKk=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Harpe\\Desktop\\NET9\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Harpe\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
@@ -105,15 +105,5 @@
     "C:\\Users\\Harpe\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
     "C:\\Users\\Harpe\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project ChallengesWithTestsMark8 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project ChallengesWithTestsMark8 supports: net9.0 (.NETCoreApp,Version=v9.0)",
-      "libraryId": "ChallengesWithTestsMark8",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
