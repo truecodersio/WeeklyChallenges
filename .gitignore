@@ -1,1 +1,48 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio / Rider files
+.vs/
 *.vs
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+TestResults/
+*.trx
+*.coveragexml
+coverage*/
+[Cc]overage/
+
+# Publish output
+publish/
+PublishProfiles/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.txt.bak
+
+# Rider
+*.DotSettings.user
+
+# dotnet tools
+.config/dotnet-tools.json.bak
